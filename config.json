@@ -1,0 +1,32 @@
+{
+	"port" : 6262,
+	"api" : [
+		{
+			"path" : "/",
+			"method" : "GET",
+			"response" : {
+				"code" : 200,
+				"contentType" : "text/plain",
+				"result" : "/"
+			}
+		},
+		{
+			"path" : "/auth",
+			"method" : "POST",
+			"response" : {
+				"code" : 200,
+				"contentType" : "text/plain",
+				"result" : "/"
+			}
+		},
+		{
+			"path" : "/status",
+			"method" : "GET",
+			"response" : {
+				"code" : 200,
+				"contentType" : "text/plain",
+				"result" : "/"
+			}
+		}		
+	]
+}
